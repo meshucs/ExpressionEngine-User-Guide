@@ -21,7 +21,7 @@ lang: php
 
 ExpressionEngine uses the Language class for calling language files and making the Control Panel side of ExpressionEngine translatable into multiple languages. This class is initialized automatically, by the system so there is no need to do it manually.
 
-ExpressionEngine also requires that every module have a file in the language directory (ex: /system/user/addons/language/english/ for third party modules) for the module with its filename in this form: `your_module_name_lang.php`. Contained in this file with be an array (`$lang`) of all the language variables for your module. Every module language file must contain _at least_ two values for the name and description of the module, which are displayed in the Module page in the Control Panel.
+ExpressionEngine also requires that every module have a file in the language directory (ex: /system/user/language/english/ for third party modules) for the module with its filename in this form: `your_module_name_lang.php`. Contained in this file with be an array (`$lang`) of all the language variables for your module. Every module language file must contain _at least_ two values for the name and description of the module, which are displayed in the Module page in the Control Panel.
 
     <?php
 
